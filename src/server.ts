@@ -21,3 +21,6 @@ export async function buildServer() {
 
   return app;
 }
+
+const app = await buildServer();
+export default app;
